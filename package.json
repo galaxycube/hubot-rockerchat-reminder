@@ -1,0 +1,25 @@
+{
+  "name": "hubot-rocketchat-reminder",
+  "version": "0.0.1",
+  "description": "Hubot script to add reminders to Rocketchat",
+  "main": "./src/scripts/hubot.reminder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "reminder",
+    "rocketchat"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/galaxycube/hubot-rocketchat-reminder.git"
+  },
+  "author": "Robert McCombe <me@robertmccombe.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "moment": "^2.24.0"
+  }
+}
